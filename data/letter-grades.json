@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Standard US letter grade scale",
+  "description": "The most common US mapping from percentage grades to letters and 4.0-scale GPA points. Individual schools and instructors may set different cutoffs and rounding policies; the syllabus always wins.",
+  "source": "https://final-gradecalculator.net/",
+  "license": "CC-BY-4.0",
+  "updated": "2026-07-26",
+  "scale": [
+    { "letter": "A+", "min_percent": 97, "gpa": 4.0 },
+    { "letter": "A",  "min_percent": 93, "gpa": 4.0 },
+    { "letter": "A-", "min_percent": 90, "gpa": 3.7 },
+    { "letter": "B+", "min_percent": 87, "gpa": 3.3 },
+    { "letter": "B",  "min_percent": 83, "gpa": 3.0 },
+    { "letter": "B-", "min_percent": 80, "gpa": 2.7 },
+    { "letter": "C+", "min_percent": 77, "gpa": 2.3 },
+    { "letter": "C",  "min_percent": 73, "gpa": 2.0 },
+    { "letter": "C-", "min_percent": 70, "gpa": 1.7 },
+    { "letter": "D+", "min_percent": 67, "gpa": 1.3 },
+    { "letter": "D",  "min_percent": 63, "gpa": 1.0 },
+    { "letter": "D-", "min_percent": 60, "gpa": 0.7 },
+    { "letter": "F",  "min_percent": 0,  "gpa": 0.0 }
+  ],
+  "notes": [
+    "Some institutions cap the scale at A (no A+) or treat A+ as 4.3.",
+    "Rounding at cutoffs (e.g., whether 89.5 becomes an A-) is instructor policy, not part of the scale."
+  ]
+}

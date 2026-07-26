@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "US Grading Data"
+type: dataset
+authors:
+  - name: "Final Grade Calculator (final-gradecalculator.net)"
+    website: "https://final-gradecalculator.net/"
+repository-code: "https://github.com/toolslabs/us-grading-data"
+url: "https://final-gradecalculator.net/"
+license: CC-BY-4.0
+version: "2026.07"
+date-released: "2026-07-26"
+abstract: "Structured data on US grading: the standard letter-grade / 4.0 GPA scale, verified school-district grading policies with official sources, and the standard formulas for weighted grades, semester grades, and required final exam scores."
+keywords:
+  - grading
+  - gpa
+  - education
+  - grade calculator
+  - semester grades

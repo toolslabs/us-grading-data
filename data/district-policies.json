@@ -1,0 +1,54 @@
+{
+  "title": "US school district grading policies",
+  "description": "Verified grading-policy data points from US public school districts. Every entry links to the district's officially published policy and records the date we accessed it. Policies change — always confirm against the linked source.",
+  "license": "CC-BY-4.0",
+  "updated": "2026-07-26",
+  "districts": [
+    {
+      "district": "Howard County Public School System (HCPSS)",
+      "state": "MD",
+      "policies": [
+        {
+          "type": "final_exam_weight",
+          "value_percent": 20,
+          "scope": "State-assessed high school courses; the State end-of-course assessment serves as the final exam grade",
+          "quote": "the State end-of-course assessment as the final exam grade and the final exam grade will be 20% of the final grade",
+          "source_name": "HCPSS Policy 8020 Implementation Procedures — Grading and Reporting: Middle and High School",
+          "source_url": "https://policy.hcpss.org/8000/8020/implementation/",
+          "accessed": "2026-07-26"
+        },
+        {
+          "type": "category_weight_cap",
+          "value_percent": 70,
+          "scope": "Quarterly grades: neither summative nor short-term assignment categories may exceed this share",
+          "quote": "Neither summative nor short-term assignment categories should exceed 70% of the total quarterly grade",
+          "source_name": "HCPSS Policy 8020 Implementation Procedures",
+          "source_url": "https://policy.hcpss.org/8000/8020/implementation/",
+          "accessed": "2026-07-26"
+        }
+      ]
+    },
+    {
+      "district": "Broward County Public Schools",
+      "state": "FL",
+      "policies": [
+        {
+          "type": "semester_weights",
+          "quarter_weight_percent": 37.5,
+          "final_exam_weight_percent": 25,
+          "scope": "High school semester grades: each quarter counts 37.5% and the final examination 25%",
+          "source_name": "Broward County Public Schools — High School Grading & Grade Point Averages",
+          "source_url": "https://www.browardschools.com/bcps-departments/school-counseling/high-school-counseling/high-school-grading-grade-point-averages",
+          "accessed": "2026-07-26"
+        }
+      ]
+    }
+  ],
+  "conventions": [
+    {
+      "name": "40/40/20 semester split",
+      "description": "A widely used (but not universal) US high-school pattern: each of two quarters counts 40% of the semester grade and the final exam counts 20%. Districts vary — see the entries above for verified examples that differ.",
+      "type": "common_pattern"
+    }
+  ]
+}
